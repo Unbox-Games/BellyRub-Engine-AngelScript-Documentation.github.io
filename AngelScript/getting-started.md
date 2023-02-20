@@ -59,7 +59,7 @@ Now that we have sorted out what the top of our script does, let's look at the t
 
 This is the `Start` function, essentially called at the start of the game or when the entity is about to begin the main loop.
 > This will only be called once!
-> 
+
 ```ml
 void Start()
 {
@@ -69,7 +69,7 @@ void Start()
 
 This is the `Update` fucntion, this will be called every frame.
 > Execution times may vary due to the performance of the game. Make sure to be cautious of that.
-> 
+
 ```ml
 void Update()
 {
