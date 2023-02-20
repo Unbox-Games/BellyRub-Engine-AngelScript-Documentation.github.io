@@ -10,7 +10,7 @@ Link: [https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html](ht
 
 When you create a new script it should look a little something like this.
 
-```AngelScript
+```ml
 class Example : NativeScriptController
 {
     Entity@ entity;
@@ -36,7 +36,7 @@ This here is the Entity that this script is attached to. This way you can get th
 interact with the Entity you have assigned this script to and provide it with behaviour and other
 cool things.
 
-```AngelScript
+```ml
 Entity@ entity;
 ```
 This here is the Script Constructor. Basically the first thing that is called when we run the game, even before
@@ -46,11 +46,29 @@ stay the same.
 > access to the entity you have assigned the script to, it is strongly recommended that you leave the default setup
 > inside the constructor as well.
 
-```AngelScript
+```ml
 Example(Entity@ obj)
 {
     @entity = obj;
 }
 ```
 
-## **Interacting with the world!**
+Now that we have sorted out what the top of our script does, let's look at the two functions that come with our script.
+
+This is the `Start` function, essentially called at the start of the game or when the entity is about to begin the main loop.
+> This will only be called once!
+```ml
+void Start()
+{
+
+}
+```
+
+This is the `Update` fucntion, this will be called every frame.
+> Execution times may vary due to the performance of the game. Make sure to be cautious of that.
+```ml
+void Update()
+{
+
+}
+```
