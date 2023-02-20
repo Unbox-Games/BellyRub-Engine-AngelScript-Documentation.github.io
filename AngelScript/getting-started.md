@@ -1,10 +1,10 @@
 # **AngelScript Documentation**
 
-## **The First Look**
+## **Getting Started**
 
 When you create a new script it should look a little something like this.
 
-```angelscript AngelScript
+```angelscript
 class Example : NativeScriptController
 {
 	Entity@ entity;
