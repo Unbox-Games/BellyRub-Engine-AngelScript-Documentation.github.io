@@ -4,7 +4,7 @@
 
 When you create a new script it should look a little something like this.
 
-```angelscript
+```AngelScript
 class Example : NativeScriptController
 {
 	Entity@ entity;
@@ -30,7 +30,7 @@ This here is the Entity that this script is attached to. This way you can get th
 interact with the Entity you have assigned this script to and provide it with behaviour and other
 cool things.
 
-```angelscript
+```AngelScript
 Entity@ entity;
 ```
 This here is the Script Constructor. Basically the first thing that is called when we run the game, even before
@@ -40,7 +40,7 @@ stay the same.
 > access to the entity you have assigned the script to, it is strongly recommended that you leave the default setup
 > inside the constructor as well.
 
-```angelscript
+```AngelScript
 Example(Entity@ obj)
 {
 	@entity = obj;
