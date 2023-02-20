@@ -76,3 +76,7 @@ void Update()
 
 }
 ```
+
+## **Interacting with the World**
+In the next part we will look at how to use AngelScript to interact with the engine interface.
+Link: [Interacting with the World](interacting-with-the-world.md)
