@@ -7,11 +7,11 @@ When you create a new script it should look a little something like this.
 ```AngelScript
 class Example : NativeScriptController
 {
-Entity@ entity;
-Example(Entity@ obj)
-{
-    @entity = obj;
-}
+    Entity@ entity;
+    Example(Entity@ obj)
+    {
+        @entity = obj;
+    }
 
     void Start()
     {
@@ -43,7 +43,7 @@ stay the same.
 ```AngelScript
 Example(Entity@ obj)
 {
-@entity = obj;
+    @entity = obj;
 }
 ```
 
