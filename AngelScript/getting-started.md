@@ -4,7 +4,7 @@ This section will cover some of the basics on how to use AngelScript inside of t
 If you haven't used AngelScript before or need a bit of a refresher on how to use it. We 
 suggest you read through AngelScript documentation to grasp the basics of the language
 syntax.
-Link: [https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html]
+Link: [https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html](https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html)
 
 ## **Getting Started**
 
