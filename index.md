@@ -5,9 +5,9 @@ This Documentation will help you understand a few things when it come to either 
 engine itself or using our angelscript bindings to make the dream game you wish to create!
 
 ```c
- void Update()
- {
-   Entity@ entity = Entity();
-   int thisThing = 0;
- }
+void Update()
+{
+    Entity@ entity = Entity();
+    int thisThing = 0;
+}
 ```
