@@ -1,5 +1,11 @@
 # **AngelScript Documentation**
 
+This section will cover some of the basics on how to use AngelScript inside of the engine.
+If you haven't used AngelScript before or need a bit of a refresher on how to use it. We 
+suggest you read through AngelScript documentation to grasp the basics of the language
+syntax.
+Link: (https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html)
+
 ## **Getting Started**
 
 When you create a new script it should look a little something like this.
